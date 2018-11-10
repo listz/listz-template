@@ -22,10 +22,10 @@ rm $0;
 # Update the new README.md.
 touch README.md;
 echo "# $1" >> README.md;
-echo "\nEnter a description." >> README.md;
-echo "\n[![Build Status](https://travis-ci.org/listz/$1.svg?branch=master)](https://travis-ci.org/listz/$1)" >> README.md;
-echo "\n## How to contribute" >> README.md;
-echo "\nYou can read more about how to contribute [here](https://github.com/listz/listz/blob/master/CONTRIBUTING.md)." >> README.md;
+echo "Enter a description." >> README.md;
+echo "[![Build Status](https://travis-ci.org/listz/$1.svg?branch=master)](https://travis-ci.org/listz/$1)" >> README.md;
+echo "## How to contribute" >> README.md;
+echo "You can read more about how to contribute [here](https://github.com/listz/listz/blob/master/CONTRIBUTING.md)." >> README.md;
 
 # Commit and push changes.
 git add --all .;
